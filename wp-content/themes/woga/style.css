@@ -1,8 +1,8 @@
 /*
-Theme Name: Woga
-Theme URI: http://www.themeisle.com
-Author: The ThemeIsle team
-Author URI: http://www.themeisle.com
+Theme Name: Woga - Custamized by Danniel Rolfe | dannielrolfe.com
+Theme URI: http://www.dannielrolfe.com
+Author: Danniel Rolfe & The ThemeIsle team
+Author URI: http://www.dannielrolfe.com & http://www.themeisle.com
 Description: Premium WordPressTheme for ThemeIsle
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -268,7 +268,7 @@ blockquote.right {
   position: relative;
 }
 #header-top a.logo {
-  width: 113px;
+  width: 200px;
   height: 90px;
   overflow: hidden;
   line-height: 90px;
