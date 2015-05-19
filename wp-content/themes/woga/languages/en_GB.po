@@ -1,0 +1,900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woga\n"
+"POT-Creation-Date: 2015-01-08 11:40+0200\n"
+"PO-Revision-Date: 2015-01-08 11:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: ThemeIsle <hello@themeisle.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "404 ERROR"
+msgstr ""
+
+#: ../404.php:28
+msgid "The page does not exist"
+msgstr ""
+
+#: ../404.php:37
+msgid ""
+"Oops, I screwed up and you discovered my fatal flaw. Well, we're not all "
+"perfect, but we try. Can you try this again or maybe visit our <a href=\""
+msgstr ""
+
+#: ../archive.php:20 ../archive.php:22
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../archive.php:24
+#, php-format
+msgid "%s."
+msgstr ""
+
+#: ../archive.php:49 ../page-blog.php:50 ../search.php:35
+msgid "No image"
+msgstr ""
+
+#: ../archive.php:54 ../page-blog.php:55 ../search.php:40
+msgid "No responses"
+msgstr ""
+
+#: ../archive.php:54 ../page-blog.php:55 ../search.php:40
+msgid "One comment"
+msgstr ""
+
+#: ../archive.php:54 ../page-blog.php:55 ../search.php:40
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../archive.php:60 ../archive.php:61 ../includes/custom-widgets.php:61
+#: ../page-blog.php:60 ../search.php:46 ../search.php:47
+msgid "Read More"
+msgstr ""
+
+#: ../archive.php:66 ../index.php:23 ../page-blog.php:64
+#: ../page-schedule.php:23 ../page.php:24 ../search.php:52
+#: ../single-schedule.php:66 ../single.php:45
+msgid "No posts found"
+msgstr ""
+
+#: ../comments.php:13
+msgid "Comments"
+msgstr ""
+
+#: ../front-page.php:30 ../front-page.php:50 ../front-page.php:70
+msgid "Read more"
+msgstr ""
+
+#: ../front-page.php:82
+msgid "Calculate BMI"
+msgstr ""
+
+#: ../front-page.php:83
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+msgstr ""
+
+#: ../front-page.php:86
+msgid "Your weight:"
+msgstr ""
+
+#: ../front-page.php:91
+msgid "kg:"
+msgstr ""
+
+#: ../front-page.php:109
+msgid "lbs:"
+msgstr ""
+
+#: ../front-page.php:127
+msgid "Your height:"
+msgstr ""
+
+#: ../front-page.php:144
+msgid "inch:"
+msgstr ""
+
+#: ../front-page.php:157
+msgid "kg or lbs..."
+msgstr ""
+
+#: ../front-page.php:158
+msgid "cm or inch..."
+msgstr ""
+
+#: ../functions.php:20
+msgid "Header Navigation"
+msgstr ""
+
+#: ../functions.php:64
+msgid "General Sidebar"
+msgstr ""
+
+#: ../functions.php:65
+msgid ""
+"Use this sidebar to display widgets in your website, including posts and "
+"pages."
+msgstr ""
+
+#: ../functions.php:75
+msgid "Contact widgets"
+msgstr ""
+
+#: ../functions.php:76
+msgid "Use this area to display widgets in your contact section."
+msgstr ""
+
+#: ../functions.php:117
+msgid "Page:"
+msgstr ""
+
+#: ../header.php:46
+msgid "Home"
+msgstr ""
+
+#: ../includes/CMB/CMB2.php:96
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: ../includes/CMB/CMB2.php:283
+msgid "Click to toggle"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:45
+msgid "Time"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Sunday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Monday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Tuesday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Wednesday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Thursday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Friday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:56
+msgid "Saturday"
+msgstr ""
+
+#: ../includes/CMB/custom-metaboxes.php:73
+msgid "Headline"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:52
+msgid "Test Metabox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:60
+#: ../includes/CMB/example-functions.php:294
+msgid "Test Text"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:61
+#: ../includes/CMB/example-functions.php:72
+#: ../includes/CMB/example-functions.php:79
+#: ../includes/CMB/example-functions.php:86
+#: ../includes/CMB/example-functions.php:94
+#: ../includes/CMB/example-functions.php:101
+#: ../includes/CMB/example-functions.php:113
+#: ../includes/CMB/example-functions.php:119
+#: ../includes/CMB/example-functions.php:126
+#: ../includes/CMB/example-functions.php:141
+#: ../includes/CMB/example-functions.php:149
+#: ../includes/CMB/example-functions.php:156
+#: ../includes/CMB/example-functions.php:162
+#: ../includes/CMB/example-functions.php:168
+#: ../includes/CMB/example-functions.php:180
+#: ../includes/CMB/example-functions.php:191
+#: ../includes/CMB/example-functions.php:202
+#: ../includes/CMB/example-functions.php:213
+#: ../includes/CMB/example-functions.php:221
+#: ../includes/CMB/example-functions.php:228
+#: ../includes/CMB/example-functions.php:236
+#: ../includes/CMB/example-functions.php:242
+#: ../includes/CMB/example-functions.php:254
+#: ../includes/CMB/example-functions.php:295
+#: ../includes/CMB/example-functions.php:361
+#: ../includes/CMB/example-functions.php:368
+#: ../includes/CMB/example-functions.php:374
+#: ../includes/CMB/example-functions.php:380
+#: ../includes/CMB/example-functions.php:386
+#: ../includes/CMB/example-functions.php:392
+#: ../includes/CMB/example-functions.php:398
+#: ../includes/CMB/example-functions.php:416
+msgid "field description (optional)"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:71
+msgid "Test Text Small"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:78
+msgid "Test Text Medium"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:85
+msgid "Website URL"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:93
+msgid "Test Text Email"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:100
+msgid "Test Time"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:106
+#: ../includes/CMB/example-functions.php:107
+msgid "Time zone"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:112
+msgid "Test Date Picker"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:118
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:125
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:140
+msgid "Test Money"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:148
+msgid "Test Color Picker"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:155
+msgid "Test Text Area"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:161
+msgid "Test Text Area Small"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:167
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:173
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:174
+msgid "This is a title description"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:179
+msgid "Test Select"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:184
+#: ../includes/CMB/example-functions.php:195
+#: ../includes/CMB/example-functions.php:206
+msgid "Option One"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:185
+#: ../includes/CMB/example-functions.php:196
+#: ../includes/CMB/example-functions.php:207
+msgid "Option Two"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:186
+#: ../includes/CMB/example-functions.php:197
+#: ../includes/CMB/example-functions.php:208
+msgid "Option Three"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:190
+msgid "Test Radio inline"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:201
+msgid "Test Radio"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:212
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:220
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:227
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:235
+msgid "Test Checkbox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:241
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:246
+msgid "Check One"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:247
+msgid "Check Two"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:248
+msgid "Check Three"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:253
+msgid "Test wysiwyg"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:260
+msgid "Test Image"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:261
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:266
+msgid "Multiple Files"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:267
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:273
+msgid "oEmbed"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:274
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:286
+msgid "About Page Metabox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:307
+msgid "Repeating Field Group"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:313
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:315
+msgid "Entry {#}"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:316
+msgid "Add Another Entry"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:317
+msgid "Remove Entry"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:354
+msgid "User Profile Metabox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:360
+msgid "Extra Info"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:367
+msgid "Avatar"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:373
+msgid "Facebook URL"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:379
+msgid "Twitter URL"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:385
+msgid "Google+ URL"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:391
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:397
+msgid "User Field"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:411
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: ../includes/CMB/example-functions.php:415
+msgid "Site Background Color"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Ajax.php:37
+msgid "Please Try Again"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Ajax.php:133
+#: ../includes/CMB/tests/test-cmb-types.php:734
+msgid "Remove Embed"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Ajax.php:137
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Field.php:765
+msgid "Add Group"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Field.php:766
+msgid "Remove Group"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Field.php:787
+msgid "None"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Field.php:788
+msgid "All"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:290
+msgid "Add Row"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:349
+#: ../includes/CMB/includes/CMB2_Types.php:805
+#: ../includes/CMB/includes/CMB2_Types.php:882
+#: ../includes/CMB/includes/CMB2_hookup.php:173
+#: ../includes/CMB/tests/test-cmb-types.php:147
+#: ../includes/CMB/tests/test-cmb-types.php:155
+#: ../includes/CMB/tests/test-cmb-types.php:683
+#: ../includes/CMB/tests/test-cmb-types.php:708
+msgid "Remove"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:683
+#: ../includes/CMB/includes/CMB2_Types.php:731
+msgid "No terms"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:775
+#: ../includes/CMB/includes/CMB2_Types.php:830
+#: ../includes/CMB/tests/test-cmb-types.php:659
+#: ../includes/CMB/tests/test-cmb-types.php:685
+#: ../includes/CMB/tests/test-cmb-types.php:695
+#: ../includes/CMB/tests/test-cmb-types.php:710
+msgid "Add or Upload File"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:796
+#: ../includes/CMB/includes/CMB2_Types.php:877
+#: ../includes/CMB/includes/CMB2_hookup.php:172
+msgid "Remove Image"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:805
+#: ../includes/CMB/includes/CMB2_Types.php:882
+#: ../includes/CMB/includes/CMB2_hookup.php:174
+#: ../includes/CMB/tests/test-cmb-types.php:684
+#: ../includes/CMB/tests/test-cmb-types.php:709
+msgid "File:"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_Types.php:805
+#: ../includes/CMB/includes/CMB2_Types.php:882
+#: ../includes/CMB/includes/CMB2_hookup.php:175
+#: ../includes/CMB/tests/test-cmb-types.php:682
+#: ../includes/CMB/tests/test-cmb-types.php:707
+msgid "Download"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:123
+#: ../includes/CMB/includes/CMB2_hookup.php:160
+msgid "Clear"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:124
+msgid "Default"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:125
+msgid "Select Color"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:126
+msgid "Current Color"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:150
+msgid "mm/dd/yy"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:151
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:152
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:153
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:154
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:155
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:156
+msgid "Next"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:157
+msgid "Prev"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:158
+msgid "Today"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:159
+msgid "Done"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:171
+msgid "Use this file"
+msgstr ""
+
+#: ../includes/CMB/includes/CMB2_hookup.php:176
+msgid "Select / Deselect All"
+msgstr ""
+
+#: ../includes/CMB/includes/helper-functions.php:243
+msgid "Save"
+msgstr ""
+
+#: ../includes/custom-posts.php:11
+msgid "Add New"
+msgstr ""
+
+#: ../includes/custom-posts.php:12
+msgid "Edit Item"
+msgstr ""
+
+#: ../includes/custom-posts.php:13
+msgid "New"
+msgstr ""
+
+#: ../includes/custom-posts.php:14
+msgid "View"
+msgstr ""
+
+#: ../includes/custom-posts.php:15
+msgid "Search"
+msgstr ""
+
+#: ../includes/custom-posts.php:16 ../includes/custom-posts.php:52
+#: ../includes/custom-posts.php:87
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/custom-posts.php:17 ../includes/custom-posts.php:53
+#: ../includes/custom-posts.php:88
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/custom-posts.php:47
+msgid "Add New photo"
+msgstr ""
+
+#: ../includes/custom-posts.php:48
+msgid "Edit photo Item"
+msgstr ""
+
+#: ../includes/custom-posts.php:49
+msgid "New photo"
+msgstr ""
+
+#: ../includes/custom-posts.php:50
+msgid "View photo"
+msgstr ""
+
+#: ../includes/custom-posts.php:51
+msgid "Search photo"
+msgstr ""
+
+#: ../includes/custom-posts.php:82
+msgid "Add New testimonial"
+msgstr ""
+
+#: ../includes/custom-posts.php:83
+msgid "Edit testimonial"
+msgstr ""
+
+#: ../includes/custom-posts.php:84
+msgid "New testimonial"
+msgstr ""
+
+#: ../includes/custom-posts.php:85
+msgid "View testimonial"
+msgstr ""
+
+#: ../includes/custom-posts.php:86
+msgid "Search testimonial"
+msgstr ""
+
+#: ../includes/custom-widgets.php:13
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: ../includes/custom-widgets.php:14 ../includes/custom-widgets.php:40
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/custom-widgets.php:99 ../includes/custom-widgets.php:185
+#: ../includes/customizer.php:455
+msgid "Title:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:102
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../includes/custom-widgets.php:106
+msgid "Display post date?"
+msgstr ""
+
+#: ../includes/custom-widgets.php:135
+msgid "A widget that displays the social buttons."
+msgstr ""
+
+#: ../includes/custom-widgets.php:139 ../includes/custom-widgets.php:180
+msgid "Social"
+msgstr ""
+
+#: ../includes/customizer.php:13
+msgid "Contact - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:20
+msgid "Contact panel title:"
+msgstr ""
+
+#: ../includes/customizer.php:29
+msgid "Contact panel description:"
+msgstr ""
+
+#: ../includes/customizer.php:38
+msgid "Telephone - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:47
+msgid "Telephone - Number:"
+msgstr ""
+
+#: ../includes/customizer.php:56
+msgid "Mail - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:65
+msgid "Mail:"
+msgstr ""
+
+#: ../includes/customizer.php:74
+msgid "Contact Address - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:83
+msgid "Contact Address - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:94
+msgid "Contact Form 7 - Shortcode:"
+msgstr ""
+
+#: ../includes/customizer.php:105
+msgid "Map - Code:"
+msgstr ""
+
+#: ../includes/customizer.php:117
+msgid "Header - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:124
+msgid "Hader - Logo:"
+msgstr ""
+
+#: ../includes/customizer.php:134
+msgid "Subheader - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:141
+msgid "Subheader - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:150
+msgid "Subheader - Content"
+msgstr ""
+
+#: ../includes/customizer.php:161
+msgid "Subheader - Button Text:"
+msgstr ""
+
+#: ../includes/customizer.php:170
+msgid "Subheader - Button Link:"
+msgstr ""
+
+#: ../includes/customizer.php:180
+msgid "Testimonials - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:187
+msgid "Testimonials - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:196
+msgid "Testimonials - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:207
+msgid "Testimonials - Number of articles:"
+msgstr ""
+
+#: ../includes/customizer.php:217
+msgid "Program - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:224
+msgid "Program section - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:233
+msgid "Program section - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:245
+msgid "Latest news - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:252
+msgid "Latest news - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:261
+msgid "Latest news - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:277
+msgid "Latest news - Number of articles:"
+msgstr ""
+
+#: ../includes/customizer.php:287
+msgid "Features - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:294
+msgid "Articles - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:303
+msgid "Article - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:314
+msgid "Box 1 - Image:"
+msgstr ""
+
+#: ../includes/customizer.php:323
+msgid "Box 1 - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:332
+msgid "Box 1 - Title Link:"
+msgstr ""
+
+#: ../includes/customizer.php:341
+msgid "Box 1 - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:352
+msgid "Box 2 - Image:"
+msgstr ""
+
+#: ../includes/customizer.php:361
+msgid "Box 2 - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:370
+msgid "Box 2 - Title Link:"
+msgstr ""
+
+#: ../includes/customizer.php:379
+msgid "Box 2 - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:390
+msgid "Box 3 - Image:"
+msgstr ""
+
+#: ../includes/customizer.php:399
+msgid "Box 3 - Title:"
+msgstr ""
+
+#: ../includes/customizer.php:408
+msgid "Box 3 - Title Link:"
+msgstr ""
+
+#: ../includes/customizer.php:417
+msgid "Box 3 - Content:"
+msgstr ""
+
+#: ../includes/customizer.php:429
+msgid "Footer - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:436 ../includes/customizer.php:473
+msgid "Content:"
+msgstr ""
+
+#: ../includes/customizer.php:448
+msgid "404 Page - Settings:"
+msgstr ""
+
+#: ../includes/customizer.php:464
+msgid "Subtitle:"
+msgstr ""
+
+#: ../sidebar.php:14
+msgid "The sidebar is not active."
+msgstr ""
