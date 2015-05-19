@@ -19,16 +19,16 @@
 define('DB_NAME', 'wordpress_pdxthrive');
 
 /** MySQL database username */
-define('DB_USER', 'dannielr_pdxthrv');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'qj1qWltqew2rcero3tCN');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'EFz+y2d-b0%kD-4at8tBbz(96P#S75+:iya=&buh`k_Sm.#(j#4>Iq(Hz5[n!~ZK');
-define('SECURE_AUTH_KEY',  'SCt[Q0@@+4&uH9zC!V5<(-ef 1p%?$_rHf^dx?_pD{aSe,9~ tO.:Q kLdrP=$]V');
-define('LOGGED_IN_KEY',    '+QYsmCe=|v1:pJ0u=6Z|R kg=}~N[-Rb$.+*iWw;^yJ$-$aK!8fSM9(&,1fxr]`2');
-define('NONCE_KEY',        'I2HMgRzlb,H662.MFj>toDuX:8`l&`dIJZGy+)*)AFsPK-WWlY#,}(qA1ad]XZZ[');
-define('AUTH_SALT',        '6p2!vWm40R2j>l`8-S6#G^IA:hVEl+<I=iP5*Ov78^;e3S)9.:d%_c&t*d.:|0bK');
-define('SECURE_AUTH_SALT', 'F@EOYE7p RISfqA3&{|1kWAj@QTS8B/G>y(GtOY$4OCVK|^Wm2uMf;Z`ZDx^u9#k');
-define('LOGGED_IN_SALT',   'n7?m,2|/]zqT`qD&oo*HnB|&5/~K$|Y3qM+A23DK0|KnCi+9TIR#rPYLL9QpHyJs');
-define('NONCE_SALT',       '#/&s+&9yolL++9p#`BmY+d4(A$0D<32~E|TWq+y:=e:zaE9{RUvFc*P^>)ZMI55x');
+define('AUTH_KEY',         '|*+EeC+naRaSqr/hCu.enc>zppvbz65un|:yt|BRD|4)PA]cfb/?3X-j&YVJX~rR');
+define('SECURE_AUTH_KEY',  'tQI&?V5n )/+SW5V>-aE--V%U_|Bz|%2=0Vi:BB(+o:mc-yW}-t9>2y@$z:3CnG]');
+define('LOGGED_IN_KEY',    'FFh6<1?g],^)Xvmt&}YrShFh.7EUcH2BN)FWPmh {<P&;P0j[l[En89?RxJ#o*_*');
+define('NONCE_KEY',        'iRGR?w^r3~xBd26pf<3hdU$%@sI:AYe?Ue`S/Y*?(ut.F+m.4?R-t6{tc.t }S3}');
+define('AUTH_SALT',        'Rp~2.}S~s^/H_WzgU6!B6mJ7*c1olUfpt2m7-/sAmUUk%&42sZ7-1OsPV)y0y)nu');
+define('SECURE_AUTH_SALT', 'f|%K&K++%Wf#][o($~Lby*iVYDn-|p9R`j6C-*v^tHpr1R|`G[86DXP|=hN(T0VC');
+define('LOGGED_IN_SALT',   'x~`{GrtRN|l[H@,G^R5-1~^CS%naaIm!2sB,a+3)m*uQ0HxKl8b#f&*C+vPko3?#');
+define('NONCE_SALT',       'koRK6}x2HuU^aa)$KfRE |fk~`p[sKO.eA=u6m(WyKiEd7y|4)2;g:D22h~uk=XL');
 
 /**#@-*/
 
