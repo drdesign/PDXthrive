@@ -94,18 +94,11 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 	<section id="features" class="feature-custom cf">
 		<div class="wrapper cf">
 			<ul class="cf">
+				<!--Featured section number 4-->
 				<?php if(get_theme_mod( 'ti_features_box4_title',__('Meet The Master','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
-							<div class="featured-image">
-
-							<!-- custom code adding image to the featured section -->	
-								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
-								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
-							} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
-							} ?>
-							</div>	
+			
 							<?php if(get_theme_mod( 'ti_features_box4_image' )): ?>
 
 
@@ -123,43 +116,46 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 								<?php endif; ?>
 							</div><!-- /div .info-div -->
 						</div><!-- /div .item_feature -->
-					</li>
+					</li><!-- Featured section number 6-->
 				<?php endif;
-				if(get_theme_mod( 'ti_features_box2_title',__('Prepare Yourself','ti') )): ?>
+				
+				// Featured section number 5 
+				if(get_theme_mod( 'ti_features_box5_title',__('Prepare Yourself','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
-							<?php if(get_theme_mod( 'ti_features_box2_image' )): ?>
+							<?php if(get_theme_mod( 'ti_features_box5_image' )): ?>
 								<div class="icon-div">
-									<a href="<?php echo get_theme_mod( 'ti_features_box2_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box2_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box2_title',__('Prepare Yourself','ti') ); ?>"></a>
+									<a href="<?php echo get_theme_mod( 'ti_features_box5_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box5_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box5_title',__('Prepare Yourself','ti') ); ?>"></a>
 								</div> <!-- s/div .icon-div -->
 							<?php endif; ?>
 							<div class="info-div">
-								<h3><?php echo get_theme_mod( 'ti_features_box2_title',__('Prepare Yourself','ti') ); ?></h3>
-								<?php if(get_theme_mod( 'ti_features_box2_content', __('Customize this from Appearance -> Customizer','ti') )): ?>
-									<p><?php echo get_theme_mod( 'ti_features_box2_content', __('Customize this from Appearance -> Customizer','ti') ); ?></p>
+								<h3><?php echo get_theme_mod( 'ti_features_box5_title',__('Prepare Yourself','ti') ); ?></h3>
+								<?php if(get_theme_mod( 'ti_features_box5_content', __('Customize this from Appearance -> Customizer','ti') )): ?>
+									<p><?php echo get_theme_mod( 'ti_features_box5_content', __('Customize this from Appearance -> Customizer','ti') ); ?></p>
 								<?php endif;
-								if(get_theme_mod( 'ti_features_box2_titlelink','#' )): ?>
-									<a href="<?php echo get_theme_mod( 'ti_features_box2_titlelink','#' ); ?>"><?php _e( 'Read more', 'ti' ); ?></a>
+								if(get_theme_mod( 'ti_features_box5_titlelink','#' )): ?>
+									<a href="<?php echo get_theme_mod( 'ti_features_box5_titlelink','#' ); ?>"><?php _e( 'Read more', 'ti' ); ?></a>
 								<?php endif; ?>
 							</div><!-- /div .info-div -->
 						</div><!-- /div .item_feature -->
 					</li>
 				<?php endif;
-				if(get_theme_mod( 'ti_features_box3_title',__('Relax Excercising','ti') )): ?>
+				// Featured section number 6
+				if(get_theme_mod( 'ti_features_box6_title',__('Relax Excercising','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
-							<?php if(get_theme_mod( 'ti_features_box3_image' )): ?>
+							<?php if(get_theme_mod( 'ti_features_box6_image' )): ?>
 								<div class="icon-div">
-									<a href="<?php echo get_theme_mod( 'ti_features_box3_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box3_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box3_title',__('Relax Excercising','ti') ); ?>"></a>
+									<a href="<?php echo get_theme_mod( 'ti_features_box6_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box6_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box6_title',__('Relax Excercising','ti') ); ?>"></a>
 								</div> <!-- s/div .icon-div -->
 							<?php endif; ?>
 							<div class="info-div">
-								<h3><?php echo get_theme_mod( 'ti_features_box3_title',__('Relax Excercising','ti') ); ?></h3>
-								<?php if(get_theme_mod( 'ti_features_box3_content', __('Customize this from Appearance -> Customizer','ti') )): ?>
-									<p><?php echo get_theme_mod( 'ti_features_box3_content', __('Customize this from Appearance -> Customizer','ti') ); ?></p>
+								<h3><?php echo get_theme_mod( 'ti_features_box6_title',__('Relax Excercising','ti') ); ?></h3>
+								<?php if(get_theme_mod( 'ti_features_box6_content', __('Customize this from Appearance -> Customizer','ti') )): ?>
+									<p><?php echo get_theme_mod( 'ti_features_box6_content', __('Customize this from Appearance -> Customizer','ti') ); ?></p>
 								<?php endif;
-								if(get_theme_mod( 'ti_features_box3_titlelink','#' )): ?>
-									<a href="<?php echo get_theme_mod( 'ti_features_box3_titlelink','#' ); ?>"><?php _e( 'Read more', 'ti' ); ?></a>
+								if(get_theme_mod( 'ti_features_box6_titlelink','#' )): ?>
+									<a href="<?php echo get_theme_mod( 'ti_features_box6_titlelink','#' ); ?>"><?php _e( 'Read more', 'ti' ); ?></a>
 								<?php endif; ?>
 							</div><!-- /div .info-div -->
 						</div><!-- /div .item_feature -->

@@ -461,116 +461,116 @@ function lawyeria_customizer( $wp_customize ) {
 
 		//Custom section by Danniel Rolfe
 
-		/* Box 1 - Image */
-		$wp_customize->add_setting( 'ti_features_box1_image' );
-		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'ti_features_box1_image', array(
-		    'label'    => __( 'Box 1 - Image:', 'ti' ),
+		/* Box 4 - Image */
+		$wp_customize->add_setting( 'ti_features_box4_image' );
+		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'ti_features_box4_image', array(
+		    'label'    => __( 'Box 4 - Image:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box1_image',
-		    'priority' => '3',
+		    'settings' => 'ti_features_box4_image',
+		    'priority' => '15',
 		) ) );
 
-		/* Box 1 - Title */
-		$wp_customize->add_setting( 'ti_features_box1_title',array('default' => __('Meet The Master','ti')) );
-		$wp_customize->add_control( 'ti_features_box1_title', array(
-		    'label'    => __( 'Box 1 - Title:', 'ti' ),
+		/* Box 4 - - Title */
+		$wp_customize->add_setting( 'ti_features_box4_title',array('default' => __('Meet The Master','ti')) );
+		$wp_customize->add_control( 'ti_features_box4_title', array(
+		    'label'    => __( 'Box 4 - Title:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box1_title',
-			'priority' => '4',
+		    'settings' => 'ti_features_box4_title',
+			'priority' => '16',
 		) );
 
-		/* Box 1 - Title Link */
-		$wp_customize->add_setting( 'ti_features_box1_titlelink',array('default' => '#') );
-		$wp_customize->add_control( 'ti_features_box1_titlelink', array(
-		    'label'    => __( 'Box 1 - Title Link:', 'ti' ),
+		/* Box 4 - Title Link */
+		$wp_customize->add_setting( 'ti_features_box4_titlelink',array('default' => '#') );
+		$wp_customize->add_control( 'ti_features_box4_titlelink', array(
+		    'label'    => __( 'Box 4 - Title Link:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box1_titlelink',
-			'priority' => '5',
+		    'settings' => 'ti_features_box4_titlelink',
+			'priority' => '17',
 		) );
 
-		/* Box 1 - Content */
-		$wp_customize->add_setting( 'ti_features_box1_content',array('default' => __('Customize this from Appearance -> Customizer','ti')) );
-		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'ti_features_box1_content', array(
-		            'label' 	=> __( 'Box 1 - Content:', 'ti' ),
+		/* Box 4 - Content */
+		$wp_customize->add_setting( 'ti_features_box4_content',array('default' => __('Customize this from Appearance -> Customizer','ti')) );
+		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'ti_features_box4_content', array(
+		            'label' 	=> __( 'Box 4 - Content:', 'ti' ),
 		            'section' 	=> 'features_settings',
-		            'settings' 	=> 'ti_features_box1_content',
-		            'priority' 	=> '6'
+		            'settings' 	=> 'ti_features_box4_content',
+		            'priority' 	=> '18'
 		        )
 		    )
 		);
 
-		/* Box 2 - Image */
-		$wp_customize->add_setting( 'ti_features_box2_image' );
-		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'ti_features_box2_image', array(
-		    'label'    => __( 'Box 2 - Image:', 'ti' ),
+		/* Box 5 - Image */
+		$wp_customize->add_setting( 'ti_features_box5_image' );
+		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'ti_features_box5_image', array(
+		    'label'    => __( 'Box 5 - Image:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box2_image',
-		    'priority' => '7',
+		    'settings' => 'ti_features_box5_image',
+		    'priority' => '19',
 		) ) );
 
-		/* Box 2 - Title */
-		$wp_customize->add_setting( 'ti_features_box2_title',array('default' => __('Prepare Yourself','ti')) );
-		$wp_customize->add_control( 'ti_features_box2_title', array(
-		    'label'    => __( 'Box 2 - Title:', 'ti' ),
+		/* Box 5 - Title */
+		$wp_customize->add_setting( 'ti_features_box5_title',array('default' => __('Prepare Yourself','ti')) );
+		$wp_customize->add_control( 'ti_features_box5_title', array(
+		    'label'    => __( 'Box 5 - Title:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box2_title',
-			'priority' => '8',
+		    'settings' => 'ti_features_box5_title',
+			'priority' => '20',
 		) );
 
-		/* Box 2 - Title Link */
-		$wp_customize->add_setting( 'ti_features_box2_titlelink',array('default' => '#') );
-		$wp_customize->add_control( 'ti_features_box2_titlelink', array(
-		    'label'    => __( 'Box 2 - Title Link:', 'ti' ),
+		/* Box 5 - Title Link */
+		$wp_customize->add_setting( 'ti_features_box5_titlelink',array('default' => '#') );
+		$wp_customize->add_control( 'ti_features_box5_titlelink', array(
+		    'label'    => __( 'Box 5 - Title Link:', 'ti' ),
 		    'section'  => 'features_settings',
 		    'settings' => 'ti_features_box2_titlelink',
-			'priority' => '9',
+			'priority' => '21',
 		) );
 
-		/* Box 2 - Content */
-		$wp_customize->add_setting( 'ti_features_box2_content',array('default' => __('Customize this from Appearance -> Customizer','ti')) );
-		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'ti_features_box2_content', array(
-		            'label' 	=> __( 'Box 2 - Content:', 'ti' ),
+		/* Box 5 - Content */
+		$wp_customize->add_setting( 'ti_features_box5_content',array('default' => __('Customize this from Appearance -> Customizer','ti')) );
+		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'ti_features_box5_content', array(
+		            'label' 	=> __( 'Box 5 - Content:', 'ti' ),
 		            'section' 	=> 'features_settings',
-		            'settings' 	=> 'ti_features_box2_content',
-		            'priority' 	=> '10'
+		            'settings' 	=> 'ti_features_box5_content',
+		            'priority' 	=> '22'
 		        )
 		    )
 		);
 
-		/* Box 3 - Image */
-		$wp_customize->add_setting( 'ti_features_box3_image' );
-		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'ti_features_box3_image', array(
-		    'label'    => __( 'Box 3 - Image:', 'ti' ),
+		/* Box 6 - Image */
+		$wp_customize->add_setting( 'ti_features_box6_image' );
+		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'ti_features_box6_image', array(
+		    'label'    => __( 'Box 6 - Image:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box3_image',
-		    'priority' => '11'
+		    'settings' => 'ti_features_box6_image',
+		    'priority' => '23'
 		) ) );
 
-		/* Box 3 - Title */
-		$wp_customize->add_setting( 'ti_features_box3_title',array('default' => __('Relax Excercising','ti')) );
-		$wp_customize->add_control( 'ti_features_box3_title', array(
-		    'label'    => __( 'Box 3 - Title:', 'ti' ),
+		/* Box 6 - Title */
+		$wp_customize->add_setting( 'ti_features_box6_title',array('default' => __('Relax Excercising','ti')) );
+		$wp_customize->add_control( 'ti_features_box6_title', array(
+		    'label'    => __( 'Box 6 - Title:', 'ti' ),
 		    'section'  => 'features_settings',
-		    'settings' => 'ti_features_box3_title',
-			'priority' => '12'
+		    'settings' => 'ti_features_box6_title',
+			'priority' => '24'
 		) );
 
-		/* Box 3 - Title Link */
+		/* Box 6 - Title Link */
 		$wp_customize->add_setting( 'ti_features_box3_titlelink',array('default' => '#') );
 		$wp_customize->add_control( 'ti_features_box3_titlelink', array(
-		    'label'    => __( 'Box 3 - Title Link:', 'ti' ),
+		    'label'    => __( 'Box 6 - Title Link:', 'ti' ),
 		    'section'  => 'features_settings',
 		    'settings' => 'ti_features_box3_titlelink',
-			'priority' => '13'
+			'priority' => '25'
 		) );
 
-		/* Box 3 - Content */
-		$wp_customize->add_setting( 'ti_features_box3_content',array('default' => __('Customize this from Appearance -> Customizer','ti')) );
-		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'ti_features_box3_content', array(
-		            'label' 	=> __( 'Box 3 - Content:', 'ti' ),
+		/* Box 6 - Content */
+		$wp_customize->add_setting( 'ti_features_box6_content',array('default' => __('Customize this from Appearance -> Customizer','ti')) );
+		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'ti_features_box6_content', array(
+		            'label' 	=> __( 'Box 6 - Content:', 'ti' ),
 		            'section' 	=> 'features_settings',
-		            'settings' 	=> 'ti_features_box3_content',
-		            'priority' 	=> '14'
+		            'settings' 	=> 'ti_features_box6_content',
+		            'priority' 	=> '26'
 		        )
 		    )
 		);
