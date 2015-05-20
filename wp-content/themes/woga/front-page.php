@@ -16,15 +16,17 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				<?php if(get_theme_mod( 'ti_features_box1_title',__('Meet The Master','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
-							<div class="featured-image">
+								<div class="featured-image-transp"></div><!--/featured-image-transp-->	
+								<div class="featured-image">
+								<!-- custom code adding image to the featured section -->	
+									<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+									echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+										} else {
+									echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+								} ?>
+								</div>	
 
-							<!-- custom code adding image to the featured section -->	
-								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
-								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
-							} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
-							} ?>
-							</div>	
+
 							<?php if(get_theme_mod( 'ti_features_box1_image' )): ?>
 
 
@@ -47,6 +49,14 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box2_title',__('Prepare Yourself','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image">
+							<!-- custom code adding image to the featured section -->	
+								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+									} else {
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} ?>
+							</div>
 							<?php if(get_theme_mod( 'ti_features_box2_image' )): ?>
 								<div class="icon-div">
 									<a href="<?php echo get_theme_mod( 'ti_features_box2_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box2_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box2_title',__('Prepare Yourself','ti') ); ?>"></a>
@@ -67,6 +77,14 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box3_title',__('Relax Excercising','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image">
+							<!-- custom code adding image to the featured section -->	
+								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+									} else {
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} ?>
+							</div>
 							<?php if(get_theme_mod( 'ti_features_box3_image' )): ?>
 								<div class="icon-div">
 									<a href="<?php echo get_theme_mod( 'ti_features_box3_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box3_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box3_title',__('Relax Excercising','ti') ); ?>"></a>
@@ -98,7 +116,14 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				<?php if(get_theme_mod( 'ti_features_box4_title',__('Meet The Master','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
-			
+							<div class="featured-image">
+							<!-- custom code adding image to the featured section -->	
+								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+									} else {
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} ?>
+							</div>
 							<?php if(get_theme_mod( 'ti_features_box4_image' )): ?>
 
 
@@ -123,6 +148,14 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box5_title',__('Prepare Yourself','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image">
+							<!-- custom code adding image to the featured section -->	
+								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+									} else {
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} ?>
+							</div>
 							<?php if(get_theme_mod( 'ti_features_box5_image' )): ?>
 								<div class="icon-div">
 									<a href="<?php echo get_theme_mod( 'ti_features_box5_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box5_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box5_title',__('Prepare Yourself','ti') ); ?>"></a>
@@ -144,6 +177,14 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box6_title',__('Relax Excercising','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image">
+							<!-- custom code adding image to the featured section -->	
+								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+									} else {
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} ?>
+							</div>
 							<?php if(get_theme_mod( 'ti_features_box6_image' )): ?>
 								<div class="icon-div">
 									<a href="<?php echo get_theme_mod( 'ti_features_box6_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box6_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box6_title',__('Relax Excercising','ti') ); ?>"></a>
