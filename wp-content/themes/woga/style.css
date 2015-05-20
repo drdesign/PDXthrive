@@ -306,15 +306,16 @@ blockquote.right {
   list-style: none;
   margin: 0;
   padding: 0;
+  float:right;
 }
 #header-top nav.navigation #nav > li {
   height: 30px;
   position: relative;
   float: left;
-  border-right: 1px solid #eaeade;
+  border-right: 0px solid #024F92;
 }
 #header-top nav.navigation #nav > li.current_page_item a {
- color: #4180ab;
+ color: #EA7625;
 }
 #header-top nav.navigation #nav > li:last-child {
   margin-right: 0px;
@@ -325,7 +326,7 @@ blockquote.right {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 12px;
-  line-height: 30px;
+  line-height: 28px;
   text-decoration: none;
   display: block;
   padding: 0 21px;
@@ -336,7 +337,16 @@ blockquote.right {
   transition: all 0.2s linear;
 }
 #header-top nav.navigation #nav > li a:hover {
-  color: #4180ab;
+  color: #024F92;
+}
+
+#nav li a:hover {
+  border-bottom: 2px solid #024F92;
+  line-height: 28px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Subheader */
