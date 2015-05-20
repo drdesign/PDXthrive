@@ -91,7 +91,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 
 //<-- Custom Section by Danniel Rolfe -->
 if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
-	<section id="features" class="features-custom cf">
+	<section id="features" class="feature-custom cf">
 		<div class="wrapper cf">
 			<ul class="cf">
 				<?php if(get_theme_mod( 'ti_features_box4_title',__('Meet The Master','ti') )): ?>

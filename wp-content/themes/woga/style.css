@@ -525,6 +525,11 @@ blockquote.right {
   width: 90%;
 }
 
+.feature-custom {
+  padding-top: 0px;
+  margin-top: -175px;
+}
+
 /* 1.6 Content */
 #content {
   background: #fff;
@@ -896,7 +901,7 @@ blockquote.right {
 }
 #recent-blog {
   width: 100%;
-  background: #fff;
+  background: #FECB0D;
   border-top: 3px solid #ededed;
   padding-bottom: 90px;
 }
