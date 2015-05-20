@@ -49,12 +49,13 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box2_title',__('Prepare Yourself','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image-transp"></div><!--/featured-image-transp-->	
 							<div class="featured-image">
 							<!-- custom code adding image to the featured section -->	
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
 								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 									} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-2.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 							} ?>
 							</div>
 							<?php if(get_theme_mod( 'ti_features_box2_image' )): ?>
@@ -77,6 +78,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box3_title',__('Relax Excercising','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image-transp"></div><!--/featured-image-transp-->	
 							<div class="featured-image">
 							<!-- custom code adding image to the featured section -->	
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
@@ -115,6 +117,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				<!--Featured section number 4-->
 				<?php if(get_theme_mod( 'ti_features_box4_title',__('Meet The Master','ti') )): ?>
 					<li>
+						<div class="featured-image-transp"></div><!--/featured-image-transp-->	
 						<div class="item_feature cf">
 							<div class="featured-image">
 							<!-- custom code adding image to the featured section -->	
@@ -148,6 +151,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box5_title',__('Prepare Yourself','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image-transp"></div><!--/featured-image-transp-->	
 							<div class="featured-image">
 							<!-- custom code adding image to the featured section -->	
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
@@ -177,6 +181,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				if(get_theme_mod( 'ti_features_box6_title',__('Relax Excercising','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image-transp"></div><!--/featured-image-transp-->	
 							<div class="featured-image">
 							<!-- custom code adding image to the featured section -->	
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
