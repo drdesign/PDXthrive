@@ -436,7 +436,7 @@ blockquote.right {
   box-sizing: border-box;
 }
 #features .item_feature {
-  padding: 60px 0;
+  padding: 14px 0;
   height: auto;
   border: 1px solid #e1e1e1;
 }
@@ -517,6 +517,10 @@ blockquote.right {
 }
 #features ul li:last-child {
   margin-right: 0;
+}
+
+.featured-image-img {
+  width: 90%;
 }
 
 /* 1.6 Content */
@@ -2978,6 +2982,10 @@ span.wpcf7-not-valid-tip{
   }
   #schedule .program_view .caroufredsel_wrapper{
     height: 90px !important;
+  }
+
+  .featured-image-img {
+    display: none;
   }
 }
 @media screen and (max-width: 750px) {

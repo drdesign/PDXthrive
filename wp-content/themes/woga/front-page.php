@@ -16,7 +16,18 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				<?php if(get_theme_mod( 'ti_features_box1_title',__('Meet The Master','ti') )): ?>
 					<li>
 						<div class="item_feature cf">
+							<div class="featured-image">
+
+							<!-- custom code adding image to the featured section -->	
+								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
+								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} else {
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+							} ?>
+							</div>	
 							<?php if(get_theme_mod( 'ti_features_box1_image' )): ?>
+
+
 								<div class="icon-div">
 									<a href="<?php echo get_theme_mod( 'ti_features_box1_titlelink','#' ); ?>" style="background-image: url(<?php echo get_theme_mod( 'ti_features_box1_image'); ?>);" title="<?php echo get_theme_mod( 'ti_features_box1_title',__('Meet The Master','ti') ); ?>"></a>
 								</div> <!-- s/div .icon-div -->
