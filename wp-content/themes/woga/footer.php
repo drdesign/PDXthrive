@@ -25,9 +25,25 @@
 					</div><!-- /div .footer_widgets -->
 				<?php } ?>
 				<div class="copyright-name">
-					<?php echo get_theme_mod( 'ti_footer_content',__('Copyright Woga. All rights reserved.','ti') ); ?>
+					<?php echo get_theme_mod( 'ti_footer_content',__('Copyright Woga. All rights reserved.','ti') ); ?>	
 				</div><!-- /div .copyright-name -->
+				<div class="footer-menu">
+						<ul>
+							<li><a href="http://www.pdxthrive.com/about">About Us</a></li>
+							<li><a href="http://www.pdxthrive.com/contact-us">Contact Us</a></li>
+							<li><a href="http://www.pdxthrive.com/services">About Us</a></li>
+							<li><a href="http://www.pdxthrive.com/schedule">Schedule An Appointment</a></li>
+						<ul>
+						<ul>
+							<li><a href=""><img src="images/facebook.png" /></a></li>
+							<li><a href=""><img src="images/linkedin.png" /></a></li>	
+					</ul>
+
+				</div>	
 			</div><!--/div .wrapper-->
+			<div class="dr-id-design">
+				<p>&#169 PDX Thrive 2015. Site done by <a href="http://www.dannielrolfe.com">Danniel Rolfe</a> </p>
+			</div>	
 		</footer><!--/footer #footer-->
 		<?php wp_footer(); ?>
 	</body>

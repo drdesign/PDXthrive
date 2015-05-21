@@ -1530,7 +1530,7 @@ span.wpcf7-not-valid-tip{
 #footer {
   width: 100%;
   border-top: 1px solid #ebebeb;
-  background: #fff;
+  background: #FECB0D;
 }
 #footer .copyright-name {
   color: #565656;
@@ -2795,6 +2795,30 @@ span.wpcf7-not-valid-tip{
   margin-right: 3px;
 }
 
+.dr-id-design {
+  color: #ffffff;
+  font-size: 15px;
+  height: 45px;
+  width: 100%;
+  background-color: rgba(0,0,0,.9);
+  margin: auto 0px;
+  float: right;
+}
+
+.dr-id-design a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dr-id-design a:hover {
+  color: #EA7625;
+}
+
+.dr-id-design p {
+  padding: 15px 5px 5px 5px;
+
+}
 
 /**
  *  Contact Form 7
