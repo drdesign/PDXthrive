@@ -31,13 +31,15 @@
 						<ul>
 							<li><a href="http://www.pdxthrive.com/about">About Us</a></li>
 							<li><a href="http://www.pdxthrive.com/contact-us">Contact Us</a></li>
-							<li><a href="http://www.pdxthrive.com/services">About Us</a></li>
+							<li><a href="http://www.pdxthrive.com/services">Services</a></li>
 							<li><a href="http://www.pdxthrive.com/schedule">Schedule An Appointment</a></li>
 						<ul>
+				</div>			
+				<div class="footer-social">			
 						<ul>
-							<li><a href=""><img src="images/facebook.png" /></a></li>
-							<li><a href=""><img src="images/linkedin.png" /></a></li>	
-					</ul>
+							<li id="facebook"><a href=""> </a></li>
+							<li id="linkedin"><a href=""> </a></li>	
+						</ul>
 
 				</div>	
 			</div><!--/div .wrapper-->
