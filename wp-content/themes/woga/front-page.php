@@ -474,7 +474,6 @@ if(get_theme_mod( 'ti_contact_panel_title',__('Get in Touch with Us','ti') )): ?
 			</div> <!-- /.wrapper -->
 		</div> <!-- /.info_contact -->
 		<div class="map"><?php echo get_theme_mod( 'ti_contact_map_code','<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5525199.9705362385!2d11.573861450784019!3d47.453833152541606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1422450164656" width="600" height="450" frameborder="0" style="border:0"></iframe>' ); ?></div> 
-		*/
 	</section> <!-- /#contact -->
 <?php endif;
 get_footer(); ?>
