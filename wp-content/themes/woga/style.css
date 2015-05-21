@@ -536,7 +536,7 @@ blockquote.right {
 }
 
 .featured-image-transp {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.2);
   margin: 0px 0px 0px 15px;
   height: 288px;
   width: 288px;
@@ -549,14 +549,14 @@ blockquote.right {
   transition: all 0.2s linear;
 }
 
-/*.featured-image-transp:hover {
+.featured-image-transp:hover {
   background-color: rgba(0,0,0,.6);
   margin: 0px 0px 0px 15px;
   height: 288px;
   width: 288px;
   position: absolute;
   z-index: 5;
-}*/
+}
 
 .feature-custom {
   padding-top: 0px;
@@ -935,7 +935,10 @@ blockquote.right {
 }
 #recent-blog {
   width: 100%;
-  background: #FECB0D;
+  /*background: #FECB0D;*/
+  background: url(images/bg-blog-img.png) no-repeat;
+  background-position: center center;
+  background-size: 100%;
   border-top: 3px solid #ededed;
   padding-bottom: 90px;
 }
@@ -1041,7 +1044,7 @@ blockquote.right {
 
 #contact-map {
   width: 100%;
-  height: 750px;
+  height: 850px;
   text-align: center;
   position: relative;
 }

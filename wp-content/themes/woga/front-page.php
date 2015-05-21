@@ -84,7 +84,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
 								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 									} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-3.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 							} ?>
 							</div>
 							<?php if(get_theme_mod( 'ti_features_box3_image' )): ?>
@@ -117,14 +117,15 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 				<!--Featured section number 4-->
 				<?php if(get_theme_mod( 'ti_features_box4_title',__('Meet The Master','ti') )): ?>
 					<li>
-						<div class="featured-image-transp"></div><!--/featured-image-transp-->	
+						
 						<div class="item_feature cf">
+							<div class="featured-image-transp"></div><!--/featured-image-transp-->	
 							<div class="featured-image">
 							<!-- custom code adding image to the featured section -->	
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
 								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 									} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-4.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 							} ?>
 							</div>
 							<?php if(get_theme_mod( 'ti_features_box4_image' )): ?>
@@ -157,7 +158,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
 								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 									} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-5.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 							} ?>
 							</div>
 							<?php if(get_theme_mod( 'ti_features_box5_image' )): ?>
@@ -187,7 +188,7 @@ if(get_theme_mod( 'ti_features_article_title',__('Featured Area','ti') )): ?>
 								<?php if ( get_theme_mod( 'ti_header_logo' ) ) {
 								echo '<img src="'. get_theme_mod( 'ti_header_logo' ) .'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 									} else {
-								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-1.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
+								echo '<img class="featured-image-img" src="'. get_template_directory_uri() .'/images/featured-image-6.jpg" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'" />';
 							} ?>
 							</div>
 							<?php if(get_theme_mod( 'ti_features_box6_image' )): ?>
@@ -472,7 +473,8 @@ if(get_theme_mod( 'ti_contact_panel_title',__('Get in Touch with Us','ti') )): ?
 
 			</div> <!-- /.wrapper -->
 		</div> <!-- /.info_contact -->
-		<div class="map"><?php echo get_theme_mod( 'ti_contact_map_code','<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5525199.9705362385!2d11.573861450784019!3d47.453833152541606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1422450164656" width="600" height="450" frameborder="0" style="border:0"></iframe>' ); ?></div>
+		<div class="map"><?php echo get_theme_mod( 'ti_contact_map_code','<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=45.5231%2C-122.6765&key=AIzaSyA2InQ78x0GzmRi82c0grXpUNgu7ZRni4o"></iframe>' ); ?></div> 
+		
 	</section> <!-- /#contact -->
 <?php endif;
 get_footer(); ?>
