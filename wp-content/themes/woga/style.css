@@ -510,7 +510,7 @@ blockquote.right {
   transition: all 0.2s linear;
 }
 #features ul li .info-div a:hover {
-  background: #8ab3cf;
+  background: ##024F8C;
   color: #fff;
 }
 #features ul li .info-div p {
