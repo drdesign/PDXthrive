@@ -330,23 +330,18 @@ blockquote.right {
   text-decoration: none;
   display: block;
   padding: 0 21px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 #header-top nav.navigation #nav > li a:hover {
   color: #024F92;
 }
 
 #nav li a:hover {
-  border-bottom: 2px solid #024F92;
-  line-height: 28px;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+  /*line-height: 28px;*/
 }
 
 /* Subheader */
@@ -402,7 +397,7 @@ blockquote.right {
   font-size: 14px;
 }
 #subheader .subheader-color .full-header-content a:hover {
-  color: #548ab1;
+  color: #024F92;
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -418,14 +413,17 @@ blockquote.right {
 
 
 #features h3 {
-  color: #024F92;
+  color: #575757;
   font-size: 34px;
   margin-top: 77px;
   padding-bottom: 25px;
 }
 #features p {
   color: #575757;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: left;
 }
 #features ul {
   padding-top: 72px;
@@ -974,7 +972,7 @@ blockquote.right {
   width: 100%;
   height: 300px;
   position: absolute;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(2, 79, 146, 0.3);
   top: 0;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1032,7 +1030,7 @@ blockquote.right {
   background: rgba(255, 255, 255, 0.5);
 }
 #recent-blog ul li:hover .content {
-  background: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(2, 79, 146, 0.7); !important;
 }
 
 #contact-map {
@@ -1543,7 +1541,7 @@ span.wpcf7-not-valid-tip{
 }
 
 .footer-menu li {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 12px 0px 30px;
   float: left;
 }
 
@@ -3035,6 +3033,9 @@ span.wpcf7-not-valid-tip{
   #recent-blog ul li {
     width: 50%;
   }
+  .featured-image-transp{
+    margin: -1px 0px 0px 12px;
+  }
 }
 @media screen and (max-width: 800px) {
   #schedule .schedule-content p {
@@ -3148,7 +3149,7 @@ span.wpcf7-not-valid-tip{
     padding: 32px 32px 0 32px;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 0px;
+    margin-top: -75px;
   }
 
   #features ul li .info-div h3 {
@@ -3173,6 +3174,10 @@ span.wpcf7-not-valid-tip{
   #recent-blog {
     background: url(images/bg-blog-img-mb.png) no-repeat center;
     margin: auto 0px;
+  }
+
+  .feature-custom {
+    margin-top: -164px;
   }
 }
 @media screen and (max-width: 750px) {

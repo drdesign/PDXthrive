@@ -28,20 +28,46 @@
 					<?php echo get_theme_mod( 'ti_footer_content',__('Copyright Woga. All rights reserved.','ti') ); ?>	
 				</div><!-- /div .copyright-name -->
 				<div class="footer-menu">
+							<?php
+							if ( has_nav_menu( 'header-navigation' ) ) {
+
+								wp_nav_menu( array(
+										'theme_location'	=> 'header-navigation',
+										'depth'				=>	1,
+										'menu_id'			=> 'nav'
+									)
+								);
+
+							} else {
+
+								echo '<div class="footer-menu"><ul>';
+									echo '<li><a href="'. home_url() .'" title="'. __( 'Home', 'ti' ) .'">'. __( 'Home', 'ti' ) .'</a></li>';
+									wp_list_pages( array(
+											'title_li'	=> '',
+										)
+									);
+								echo '</ul></div>';
+
+							}
+							?>
+						</div><!--/nav .navigation-->
+				<!-- <div class="footer-menu">
 						<ul>
 							<li><a href="http://www.pdxthrive.com/about">About Us</a></li>
 							<li><a href="http://www.pdxthrive.com/contact-us">Contact Us</a></li>
 							<li><a href="http://www.pdxthrive.com/services">Services</a></li>
 							<li><a href="http://www.pdxthrive.com/schedule">Schedule An Appointment</a></li>
 						<ul>
-				</div>			
+				</div>	 -->		
 				<div class="footer-social">			
 						<ul>
 							<li id="facebook"><a href=""> </a></li>
 							<li id="linkedin"><a href=""> </a></li>	
 						</ul>
 
-				</div>	
+				</div>
+
+
 			</div><!--/div .wrapper-->
 			<div class="dr-id-design">
 				<p>&#169 PDX Thrive 2015. Site done by <a href="http://www.dannielrolfe.com">Danniel Rolfe</a> </p>

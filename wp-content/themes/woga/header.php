@@ -29,7 +29,7 @@
 							} ?>
 						</a><!--/a .logo-->
 						<a hreff="#" class="icon_responsive_menu" id="dropdown_menu"></a>
-						<nav class="navigation">
+						<nav class="navigation nav-custom">
 							<?php
 							if ( has_nav_menu( 'header-navigation' ) ) {
 
