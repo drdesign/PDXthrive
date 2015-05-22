@@ -418,9 +418,10 @@ blockquote.right {
 
 
 #features h3 {
-  color: #575757;
+  color: #024F92;
   font-size: 34px;
   margin-top: 77px;
+  padding-bottom: 25px;
 }
 #features p {
   color: #575757;
@@ -517,7 +518,7 @@ blockquote.right {
   color: #ffffff;
   font-size: 14px;
   line-height: 26px;
-  margin-bottom: 120px;
+  margin-bottom: 26px;
   /*custom*/
   z-index: 50;
   position: relative;
@@ -1235,7 +1236,7 @@ blockquote.right {
 }
 
 div.wpcf7-response-output{
-  margin: 0;
+  margin: 5px;
   padding: 10px 5px;
 }
 
@@ -2953,9 +2954,9 @@ span.wpcf7-not-valid-tip{
 }
 .wpcf7 form input[type='submit'] {
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: #FECB0D;
   padding-left: 6px;
-  border: 1px solid #000;
+  border: 1px solid #FECB0D;
   text-align: center;
   color: #fff;
   cursor: pointer;
@@ -3071,7 +3072,7 @@ span.wpcf7-not-valid-tip{
   }
   #contact-map{
     height: inherit;
-    padding: 87px 0;
+    padding: -5px 0;
   }
   #header-top .icon_responsive_menu{
     display: block;
@@ -3176,6 +3177,11 @@ span.wpcf7-not-valid-tip{
 
   .featured-image-transp {
     display: none;
+  }
+
+  #recent-blog {
+    background: url(images/bg-blog-img-mb.png) no-repeat center;
+    margin: auto 0px;
   }
 }
 @media screen and (max-width: 750px) {
