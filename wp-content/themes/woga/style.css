@@ -479,7 +479,7 @@ blockquote.right {
   padding: 32px 32px 0 32px;
   box-sizing: border-box;
   text-align: center;
-  margin-top: -291px;
+  margin-top: -341px;
   z-index: 100;
 }
 #features ul li .info-div h3 {
@@ -510,7 +510,7 @@ blockquote.right {
   transition: all 0.2s linear;
 }
 #features ul li .info-div a:hover {
-  background: ##024F8C;
+  background: #024F8C;
   color: #fff;
 }
 #features ul li .info-div p {
@@ -518,13 +518,13 @@ blockquote.right {
   color: #ffffff;
   font-size: 14px;
   line-height: 26px;
-  margin-bottom: 26px;
+  margin-bottom: 74px;
   /*custom*/
   z-index: 50;
   position: relative;
 }
 #features .item_feature:hover {
-  border: 1px solid #EA7625;
+  border: 1px solid #024F8D;
 }
 #features ul li:hover .icon-div {
   opacity: 1;
@@ -538,26 +538,17 @@ blockquote.right {
 }
 
 .featured-image-transp {
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.3);
   margin: 0px 0px 0px 15px;
   height: 288px;
   width: 288px;
   position: absolute;
   z-index: 5;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.featured-image-transp:hover {
-  background-color: rgba(0,0,0,.6);
-  margin: 0px 0px 0px 15px;
-  height: 288px;
-  width: 288px;
-  position: absolute;
-  z-index: 5;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 .feature-custom {

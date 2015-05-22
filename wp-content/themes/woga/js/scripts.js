@@ -135,4 +135,5 @@ $(function() {
   	jQuery("#result-bmi").text(bmi_i);
   	return false;
 	});
+
 });
