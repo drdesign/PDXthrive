@@ -41,6 +41,7 @@ while ( have_posts() ) : the_post(); ?>
 					wp_reset_postdata();  ?>
 				</ul>
 			</div> <!-- /.recent-title -->
+			<div class="push"></div><!--push custom by Danniel Rolfe-->
 		</div> <!-- /.wrapper -->
 	</section> <!-- /#gallery -->
 <?php endwhile;

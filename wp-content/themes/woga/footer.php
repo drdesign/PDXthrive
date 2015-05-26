@@ -58,7 +58,8 @@
 							<li><a href="http://www.pdxthrive.com/services">Services</a></li>
 							<li><a href="http://www.pdxthrive.com/schedule">Schedule An Appointment</a></li>
 						<ul>
-				</div>	 -->		
+				</div>	 -->
+						
 				<div class="footer-social">			
 						<ul>
 							<li id="facebook"><a href=""> </a></li>

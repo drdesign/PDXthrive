@@ -18,6 +18,7 @@ if ( have_posts() ) {
 					<div class="schedule-content content_page"><?php the_content(); ?></div><!-- /.schedule-content -->
 				</div> <!-- /.recent-title -->
 			</div> <!-- /.wrapper -->
+			<div class="push"></div><!--push custom by Danniel Rolfe-->
 		</section> <!-- /#schdeule -->
 	<?php }
 } else {

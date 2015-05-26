@@ -67,6 +67,7 @@ get_header(); ?>
 			<?php wp_reset_postdata(); ?>
 		</div><!--/div #posts-->
 		<?php get_sidebar(); ?>
+		<div class="push"></div><!--push custom by Danniel Rolfe-->
 	</div><!--/div .wrapper-->
 </section><!--/section #content-->
 

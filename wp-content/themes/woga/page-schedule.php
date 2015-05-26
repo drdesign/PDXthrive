@@ -81,6 +81,7 @@ get_header(); ?>
 			} 
 			wp_reset_postdata(); 
 		endforeach; ?>
+		<div class="push"></div><!--push custom by Danniel Rolfe-->
 	</div> <!-- /.wrapper -->
 </section> <!-- /#schdeule -->
 

@@ -38,6 +38,7 @@ if ( have_posts() ) {
 					<?php comments_template(); ?>
 				</div><!--/div #full-posts-->	
 				<?php get_sidebar(); ?>
+				<div class="push"></div><!--push custom by Danniel Rolfe-->
 			</div><!--/div .wrapper-->
 		</section><!--/section #content-->
 	<?php }
